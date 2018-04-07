@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html ng-app="hiddenCity">
+<head>
+    <style>
+        .ng-cloak {
+            display: none;
+        }
+    </style>
+    <title>Hidden City - Ealing</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+</head>
+
+<body ng-controller="controller as controller" class="ng-cloak" ng-cloak>
+    <div class="background"> </div>
+
+    <div class="content">
+        <div class="titleContainer">
+            <div class="title">Hidden City</div>
+            <div class="subTitle">EALING</div>
+        </div>
+
+        <div class="clue" ng-show="!controller.hasStarted && !controller.hasFinished">
+            <p>
+                Welcome to Hidden City - Ealing Edition
+            </p>
+            <p>
+                Before you are X clues and riddles that will have you walking all over Ealing, allow around 2 - 2.5 hours to complete the hunt. Click the start button below to begin playing!
+            </p>
+            <button ng-click="controller.Start()">Start</button>
+        </div>
+
+        <div class="clue" ng-show="controller.hasStarted">
+            <p>{{controller.currentClue.question}}</p>
+            <input type="text" ng-model="controller.theAnswer" ng-show="!controller.hasFinished" />
+            <button class="formButton" ng-click="controller.SubmitAnswer()" ng-show="!controller.hasFinished">Submit</button>
+            <button class="formButton" ng-click="controller.GetHint()" ng-show="!controller.hasFinished">Hint</button>
+        </div>
+
+        <div class="hint info" ng-show="controller.hintGiven">
+            {{controller.currentHint.hint}}
+        </div>
+        
+        <div class="correct info" ng-show="controller.isCorrect && controller.hasStarted">
+            THAT IS THE RIGHT ANSWER!
+        </div>
+
+        <div class="incorrect info" ng-show="!controller.isCorrect && controller.hasStarted && controller.enteredClue">
+            THAT IS THE WRONG ANSWER!
+        </div>
+    </div>
+    
+    <script src="Angular.min.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-cookies.min.js"></script>
+
+    <script src="Script.js"></script>
+
+</body>
+</html>
