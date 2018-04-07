@@ -93,7 +93,7 @@ angular.module('hiddenCity', ['ngCookies'])
                 quote: "",
                 quoter: "",
                 question: "",
-                answers: ["""]
+                answers: [""]
         },
             {
                 number: 12,
