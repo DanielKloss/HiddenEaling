@@ -20,86 +20,86 @@ angular.module('hiddenCity', ['ngCookies'])
     self.clues = [
         {
             number: 1,
-            quote: "It can be a dangerous business going out your door. You step onto the road, and if you don't keep your feet, there is no knowing where you might be swept off to.",
-            quoter: "Bilbo Baggins",
-            question: "You leave home on a great quest, looking for the wise circular god. You find it instantly and it tells you to head 'North'. Which Ealing family live furthest 'north'?",
-            answers: ["Hurst", "Hursts", "The Hursts"]
+            quote: "",
+            quoter: "",
+            question: "Leave the extreme comfort of your home and turn your back on Emily's oldest living relatives. Which baked good can still be seen at the caffinated corner?",
+            answers: ["hovis", "bread"]
         },
         {
             number: 2,
-            quote: "Graffiti is one of the few tools you have if you have almost nothing. And even if you don't come up with a picture to cure world poverty you can make someone smile while they're having a piss.",
-            quoter: "Banksy",
-            question: "You decide to press on and hang a left in order to enter an American city parkland. Who was 'ere at the very centre of the park? ",
-            answers: ["Splod", "Splod was ere", "Splod was here"]
+            quote: "",
+            quoter: "",
+            question: "Walk inn to innpassing celestial wonders on your way. Which Lady has helped establish the local education?",
+            answers: ["byron", "lady byron"]
         },
         {
             number: 3,
-            quote: "I swear to drunk I'm not god",
-            quoter: "Annonymous Drunk",
-            question: "You hear The Duke calling but he's drunk on whiskey and walking DIAGONALLY. Luckily there is a nice avenue of Limes for him to sleep under. When were they planted?",
-            answers: ["1980", "Nineteen Eighty", "36 years ago"]
+            quote: "",
+            quoter: "",
+            question: "All roadds lead to Rome (or Naples in this case) via DELIcious hilltop treats. What furry friend can join you at stage six?",
+            answers: ["dog", "a dog", "your dog"]
         },
         {
             number: 4,
-            quote: "Football is a simple game. Twenty-two men chase a ball for 90 minutes and at the end, the Germans always win.",
-            quoter: "Gary Lineker",
-            question: "All this walking has you in the mood for exercise. You walk past the mordern sports clubhouse to a much more elderly version. When was this clubhouse founded?",
-            answers: ["1913", "Ninteen Thirty", "86 years ago"]
+            quote: "",
+            quoter: "",
+            question: "Follow the road trodden by leaders past. Keep bright weather on your L and continue onto greener pastures. Find yourself at a mixed [anagram]. Which Manor resides here?",
+            answers: ["pitzhanger", "pitzhanger manor"]
         },
         {
             number: 5,
-            quote: "It's up to you, you can either shut up or you can have your head cut off.",
-            quoter: "Queenie - Blackadder",
-            question: "You've had enough sport for now so you move on past 'The Sport of Kings' and towards the laughter of children. Here, your journey through the grassland comes to an end. Who do you think of as you leave?",
-            answers: ["QE2", "QEII", "Queen Elizabeth", "Queen Elizabeth 2", "Queen Elizabeth II"]
+            quote: "",
+            quoter: "",
+            question: "Do a Bonnie Tyler Bright Eyes and put Andy Murray's playground on your left. Pass between a red letter day and a box full of technical difficulties. Entera baby sheep's greenland and find the date of a light filled festival",
+            answers: ["2nd feb", "2nd february", "2/2", "2-2", "2 feb", "2 february"]
         },
         {
             number: 6,
-            quote: "All animals are equal but some animals are more equal than others.",
-            quoter: "George Orwell - Animal Farm",
-            question: "Take the farmlike road towards 'The Village'. How much is a Pork Belly Pennag at the inn?",
-            answers: ["13", "£13", "13 pounds"]
+            quote: "",
+            quoter: "",
+            question: "Walk centrally to where children laugh. From tippy toes to bigger feet, pass theri older siblings laughing just as hard. As green turns to grey, what upholstery is the preferred selection?",
+            answers: ["bedding", "carpets", "1st choice", "1st choice bedding and carpets"]
         },
         {
             number: 7,
-            quote: "Only the dead have seen the end of war.",
-            quoter: "Plato",
-            question: "As you continue, new religion becomes old while a gothic structure looms. Who was the stoney symbolism erected by?",
-            answers: ["Relatives and Friends", "Relatives + friends", "Relatives Friends"]
+            quote: "",
+            quoter: "",
+            question: "Passing flames, lights and eastern delights, cross the bridge of upmost pastures. What type of apple will keep the doctor away?",
+            answers: ["bramley", "bramley apple", "bramley apples"]
         },
         {
             number: 8,
-            quote: "If you carry your childhood with you, you never become older.",
-            quoter: "Annonymous",
-            question: "The Village has become too urban and you long for a SMALL taste of a FOREST or a MEADOW again. What colour is the front door of a very familiar house?",
-            answers: ["Red"]
+            quote: "",
+            quoter: "",
+            question: "Go past the clean owl and cross the glastonbury essential. The source of poolside tantrums sends you round the bend. Plough on past god's children and a tiny borough. What colour matches AN and LY's cause for celebration this April?",
+            answers: ["red"]
         },
         {
             number: 9,
-            quote: "It is not the mountian we conquer but ourselves.",
-            quoter: "Edmund Hillary",
-            question: "Onwards and upwards onto Woodfield's bigger brother. You keep climbing until you hit a real MOUNTian. Up for a challenge, you keep climbing. You cross a royal pathway and keep your sword on you left side as  you attack her castle. Who lives at 76?",
-            answers: ["Nanna", "Barbara", "Nana"]
+            quote: "",
+            quoter: "",
+            question: "Swing by matrimony and cross to lunar schooling.",
+            answers: [""]
         },
         {
             number: 10,
-            quote: "Bazinga",
-            quoter: "Sheldon Cooper",
-            question: "You keep descending upon the castle, wave after wave of troops until until all that is left is a single scorched tree in the middle of the path. Eager for some joy after the terrors of war you head towards the playground. Your prayers are soon answered by a scientist saint. When is the last time you could send a letter back home?",
-            answers: ["17:45", "5:45", "five forty five", "5-45", "17-45", "5.45", "17.45"]
+            quote: "",
+            quoter: "",
+            question: "",
+            answers: [""]
         },
         {
             number: 11,
-            quote: "It's good to have an end to journey toward; but it is the journey that matters, in the end",
-            quoter: "Ernest Hemmingway",
-            question: "After a long journey you decide to head homeward. You need to stock up on supplies so you hang a left at the shop on the corner, looking for somewhere to spend the night. Where is the closest bed?",
-            answers: ["The Drayton", "The Drayton Court", "Drayton", "The Drayton Court Hotel", "The Drayton Hotel"]
+            quote: "",
+            quoter: "",
+            question: "",
+            answers: ["""]
         },
         {
             number: 12,
             quote: "",
             quoter: "",
-            question: "Congratulations! You have finished the quest! Use this code in the Drayton for a well earned drink and bite to eat - Happy Birthday!",
+            question: "Congratulations! You have finished!- Happy Birthday!",
             answers: []
         }
     ];
@@ -107,47 +107,47 @@ angular.module('hiddenCity', ['ngCookies'])
     self.hints = [
         {
             number: 1,
-            hint: "Walk to St Stephens Church and all the way up North Avenue.",
+            hint: "Leave home and turn right. Look for a faded sign above Munsons",
         },
         {
             number: 2,
-            hint: "Enter Cleveland Park and look in the flower bed at the center.",
+            hint: "Walk from the New Inn to the Castle Inn and look for a plaque on UWL",
         },
         {
             number: 3,
-            hint: "Take the diagonal path towards the Duke of Kent and enter Scotch Common.",
+            hint: "Walk to Santa Maria, look for stage six and reference to animals",
         },
         {
             number: 4,
-            hint: "Go to the bowls clubhouse.",
+            hint: "Walk down Disraeli Road and onto Lammas Park Gardens. Enter Walpole Park",
         },
         {
             number: 5,
-            hint: "Look at the Meadvale Road gates.",
+            hint: "Leave Walpole Park and enter Lammas Park via Eles Road",
         },
         {
             number: 6,
-            hint: "There is a menu outside The Village Inn. They have changed the menu though! The answer is 13 pounds...",
+            hint: "Walk through Lammas Park past both playgrounds and out the other side. Turn left onto the road",
         },
         {
             number: 7,
-            hint: "Walk past the Methodist to the CofE. On the corner of Denison Road is a statue.",
+            hint: "Walk past Northfields Tube and to a pharmacy",
         },
         {
             number: 8,
-            hint: "Number 23, Woodfield Avenue.",
+            hint: "Follow the road road to the left. Pass the schools and look out for siginificant door numbers",
         },
         {
             number: 9,
-            hint: "76 is Downhurst Residential Home.",
+            hint: "",
         },
         {
             number: 10,
-            hint: "Check the post box on the corner of St Leonard's and Carlton.",
+            hint: "",
         },
         {
             number: 11,
-            hint: "The nearest bed is in a hotel.",
+            hint: "",
         },
     ];
 
