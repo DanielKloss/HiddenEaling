@@ -135,7 +135,7 @@ angular.module('hiddenCity', ['ngCookies'])
             },
             {
                 number: 8,
-                hint: "Follow the road road to the left. Pass the schools and look out for siginificant door numbers",
+                hint: "Follow the road round to the left. Pass the schools and look out for siginificant door numbers",
             },
             {
                 number: 9,
