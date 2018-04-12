@@ -17,6 +17,10 @@
 
     <div class="content">
 
+        <div class="correct info" ng-show="controller.isCorrect && controller.hasStarted">
+            THAT IS THE RIGHT ANSWER!
+        </div>
+        
         <div class="clue" ng-show="!controller.hasStarted && !controller.hasFinished">
             <p>
                 Welcome to Hidden City - South Ealing Edition
@@ -36,10 +40,6 @@
 
         <div class="hint info" ng-show="controller.hintGiven">
             {{controller.currentHint.hint}}
-        </div>
-
-        <div class="correct info" ng-show="controller.isCorrect && controller.hasStarted">
-            THAT IS THE RIGHT ANSWER!
         </div>
 
         <div class="incorrect info" ng-show="!controller.isCorrect && controller.hasStarted && controller.enteredClue">
