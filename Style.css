@@ -62,7 +62,7 @@ html, body {
     margin-right: auto;
     text-align: center;
     font-family: 'Sigmar One', cursive;
-    font-size: 1em;
+    font-size: xx-large;
     color: black;
 }
 
@@ -97,7 +97,7 @@ button {
     text-align: center;
     background: none;
     font-family: 'Sigmar One';
-    font-size: 1em;
+    font-size: xx-large;
 }
 
 .formButton {
