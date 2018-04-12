@@ -78,14 +78,17 @@ html, body {
 
 .hint {
     color: blue;
+    font-size: xx-large;
 }
 
 .correct {
     color: green;
+    font-size: xx-large;
 }
 
 .incorrect {
     color: red;
+    font-size: xx-large;
 }
 
 button {
