@@ -99,7 +99,7 @@ angular.module('hiddenCity', ['ngCookies'])
                 number: 12,
                 quote: "",
                 quoter: "",
-                question: "Congratulations! You have finished!- Happy Birthday!",
+                question: "Congratulations! You have finished! Your names will go down in history with legends such as Less Blatter! - Happy Birthday!",
                 answers: []
             }
         ];
