@@ -22,43 +22,43 @@ angular.module('hiddenCity', ['ngCookies'])
                 number: 1,
                 quote: "",
                 quoter: "",
-                question: "Leave the extreme comfort of your home and turn your back on Emily's oldest living relatives. Which baked good can still be seen at the caffinated corner?",
-                answers: ["hovis", "bread"]
+                question: "Leave the extreme comfort of your home and turn your back on EGK's oldest living relatives. What time is waste taken at a caffeinated corner?",
+                answers: ["seven am", "7am", "7", "seven", "7:00", "7.00"]
             },
             {
                 number: 2,
                 quote: "",
                 quoter: "",
-                question: "Walk inn to innpassing celestial wonders on your way. Which Lady has helped establish the local education?",
+                question: "Yes! That is correct! Now walk inn to inn, passing celestial wonders on your way. Which Lady helped establish the local education?",
                 answers: ["byron", "lady byron"]
             },
             {
                 number: 3,
                 quote: "",
                 quoter: "",
-                question: "All roadds lead to Rome (or Naples in this case) via DELIcious hilltop treats. What furry friend can join you at stage six?",
+                question: "Well done! All roads lead to Rome (or, in this case, Naples) via DELIcious hilltop treats. What furry friend can join you at stage six?",
                 answers: ["dog", "a dog", "your dog"]
             },
             {
                 number: 4,
-                quote: "",
+                quote: "",                
                 quoter: "",
-                question: "Follow the road trodden by leaders past. Keep bright weather on your L and continue onto greener pastures. Find yourself at a mixed [anagram]. Which Manor resides here?",
+                question: "Brilliant! Follow the road trodden by a leader past. Keep bright weather on your L and continue onto greener pastures. Find yourself at a mixed 'poewall karp'. Which Manor resides here?",
                 answers: ["pitzhanger", "pitzhanger manor"]
             },
             {
                 number: 5,
                 quote: "",
                 quoter: "",
-                question: "Do a Bonnie Tyler Bright Eyes and put Andy Murray's playground on your left. Pass between a red letter day and a box full of technical difficulties. Entera baby sheep's greenland and find the date of a light filled festival",
+                question: "Keep going! Do a Bonnie Tyler Bright Eyes and put Andy Murray's playground on your left. Pass between a red letter day and a box full of technical difficulties. Enter a baby sheep's greenland. What is the date of a light filled festival?",
                 answers: ["2nd feb", "2nd february", "2/2", "2-2", "2 feb", "2 february"]
             },
             {
                 number: 6,
                 quote: "",
                 quoter: "",
-                question: "Walk centrally to where children laugh. From tippy toes to bigger feet, pass theri older siblings laughing just as hard. As green turns to grey, what upholstery is the preferred selection?",
-                answers: ["bedding", "carpets", "1st choice", "1st choice bedding and carpets"]
+                question: "Walk centrally to where children laugh. From tippitoes to bigger feet, pass their older siblings laughing just as hard. As green turns to grey, what upholstery is the preferred selection?",
+                answers: ["bedding", "carpets", "bedding and carpets", "1st choice bedding and carpets"]
             },
             {
                 number: 7,
@@ -78,22 +78,22 @@ angular.module('hiddenCity', ['ngCookies'])
                 number: 9,
                 quote: "",
                 quoter: "",
-                question: "Swing by matrimony and cross to lunar schooling.",
-                answers: [""]
+                question: "Swing by matrimony and past lunar schooling. From Russia with L to a yellow newsworthy corner. Which football tournament can be found here?",
+                answers: ["Euros", "European Championships", "European Championship"]
             },
             {
                 number: 10,
                 quote: "",
                 quoter: "",
-                question: "",
-                answers: [""]
+                question: "Well done fearless explorers, you are nearing the finish. Next, go to the place Geordies fear to tread and follow to T's red head. Atop the bridge, what is the final destination of trains coming from the station in sight?",
+                answers: ["Oakwood", "Cockfosters", "Wood Green"]
             },
             {
                 number: 11,
                 quote: "",
                 quoter: "",
-                question: "",
-                answers: [""]
+                question: "And now on to your final clue. A tricky one... Continue past Graham's grain towards the land of bread and wine. Who does Cornelius Hancock lie next to?",
+                answers: ["Mary Frances Howard"]
         },
             {
                 number: 12,
@@ -107,7 +107,7 @@ angular.module('hiddenCity', ['ngCookies'])
         self.hints = [
             {
                 number: 1,
-                hint: "Leave home and turn right. Look for a faded sign above Munsons",
+                hint: "Leave home and turn right. At Munsons, find the rubbish collection time",
             },
             {
                 number: 2,
@@ -139,15 +139,15 @@ angular.module('hiddenCity', ['ngCookies'])
             },
             {
                 number: 9,
-                hint: "",
+                hint: "Walk past the wedding dresses and turn left past the Russian shop. Continue until you get to a yellow newsagents",
             },
             {
                 number: 10,
-                hint: "",
+                hint: "Walk down Sunderland road and turn left onto the bridge. What is the most Easterly Picadilly line station?",
             },
             {
                 number: 11,
-                hint: "",
+                hint: "Find Cornelius' grave stone in St Mary's graveyard. It's just past the bench down the path",
             },
         ];
 
